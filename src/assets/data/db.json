@@ -1,0 +1,66 @@
+{
+  "product": [
+    {   "id": 1, 
+        "productName": "shirt",
+        "catigoryId":1,
+        "description":"this is a escription",
+        "price":300,
+        "is_available":true,
+        "productImg":"http://localhost:4200/assets/33.jpg",
+        "rating":4,
+        "review":150,
+        "vendor_name":"M&s",
+        "waranty":1},
+
+        {  "id": 2, 
+          "productName": "shirt",
+          "catigoryId":4,
+          "description":"this is a escription",
+          "price":300,
+          "is_available":true,
+          "productImg":"http://localhost:4200/assets/77.jpg",
+          "rating":4,
+          "review":150,
+          "vendor_name":"M&s",
+          "waranty":1},
+
+            {  "id": 3, 
+              "productName": "shirt",
+              "catigoryId":4,
+              "description":"this is a escription",
+              "price":300,
+              "is_available":true,
+              "productImg":"http://localhost:4200/assets/55.jpg",
+              "rating":4,
+              "review":150,
+              "vendor_name":"M&s",
+              "waranty":1},
+              
+                {  "id": 4, 
+                  "productName": "shirt",
+                  "catigoryId":2,
+                  "description":"this is a escription",
+                  "price":300,
+                  "is_available":true,
+                  "productImg":"http://localhost:4200/assets/6.jpg",
+                  "rating":4,
+                  "review":150,
+                  "vendor_name":"M&s",
+                  "waranty":1}
+  ],
+  "categories": [
+    { "id": 1, "categoryName": "Electronics"  },
+    { "id": 2, "categoryName": "Men" },
+    { "id": 3, "categoryName": "Women"  },
+    { "id": 4, "categoryName": "kids" },
+    { "id": 5, "categoryName": "Furnture"  } 
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+ 
+  "profile": {
+    "name": "typicode"
+  }
+}
